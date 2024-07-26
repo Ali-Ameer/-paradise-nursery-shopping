@@ -11,7 +11,7 @@ const Header = () => {
       </Link>
       <nav>
         <Link to="/cart" className="cart">
-          <img src="/public/icons/shopping-cart.png" className="cartIcon" />
+          <img src="../../public/icons/shopping-cart.png" className="cartIcon" />
 
           <span className="qty">{totalItems}</span>
         </Link>
